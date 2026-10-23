@@ -1,25 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title desc">
-  <title id="title">Thanks for visiting</title>
-  <desc id="desc">A compact matching dark green footer banner.</desc>
+  <title id="title">iyann99 — Thanks for visiting</title>
+  <desc id="desc">Minimal dark forest-green footer with a distinctive geometric mark and restrained linework.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0b1511"/>
-      <stop offset="1" stop-color="#111e17"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08120e"/>
+      <stop offset="1" stop-color="#101e16"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#90eea6"/>
       <stop offset="1" stop-color="#3cab73"/>
     </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3cab73" stop-opacity="0.05"/>
+      <stop offset="0.5" stop-color="#90eea6" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#3cab73" stop-opacity="0.05"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="112" rx="13"/></clipPath>
   </defs>
-  <rect width="1200" height="112" rx="14" fill="url(#bg)"/>
-  <rect x="0" y="0" width="5" height="112" rx="2.5" fill="url(#accent)"/>
-  <path d="M34 86H1166" stroke="#91dca4" stroke-opacity=".16"/>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="38" y="46" fill="#edf7ef" font-size="21" font-weight="600">Thanks for stopping by.</text>
-    <text x="38" y="72" fill="#91ad9a" font-size="14">Keep building useful things.</text>
-    <text x="1160" y="50" fill="#9fe6b0" font-size="13" font-weight="600" text-anchor="end" letter-spacing="2">BUILD · TEST · LEARN</text>
-  </g>
-  <g transform="translate(1090 73)" fill="none" stroke="#79c991" stroke-width="1.5" stroke-linecap="round">
-    <path d="M0 0H61M49 -7L61 0L49 7"/>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="112" fill="url(#background)"/>
+
+    <!-- Quiet architectural linework, kept away from the text. -->
+    <path d="M0 16H118Q151 16 168 43L207 103" fill="none" stroke="#3cab73" stroke-opacity=".28" stroke-width="1.2"/>
+    <path d="M1200 18H1120Q1094 18 1077 40L1038 91Q1026 106 1004 106H924" fill="none" stroke="#3cab73" stroke-opacity=".24" stroke-width="1.2"/>
+    <path d="M0 111H1200" stroke="url(#line)" stroke-width="1"/>
+    <path d="M0 0H1200" stroke="#90eea6" stroke-opacity=".14" stroke-width="1"/>
+
+    <!-- Original compact mark: two offset, rounded diagonal forms. -->
+    <g transform="translate(48 56)" fill="url(#green)">
+      <rect x="-10" y="-20" width="12" height="29" rx="4" transform="rotate(42)"/>
+      <rect x="2" y="-3" width="12" height="29" rx="4" transform="rotate(42)"/>
+    </g>
+
+    <text x="82" y="62" fill="#edf7ef" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" letter-spacing=".2">iyann99</text>
+    <path d="M171 37V75" stroke="#3cab73" stroke-opacity=".75" stroke-width="1.2"/>
+
+    <text x="195" y="49" fill="#dcebe0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="550">Thanks for visiting.</text>
+    <text x="195" y="71" fill="#91ad9a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5">Keep building useful things.</text>
+
+    <g fill="#90eea6">
+      <circle cx="925" cy="56" r="2.5" opacity=".5"/>
+      <circle cx="937" cy="56" r="2.5" opacity=".75"/>
+      <circle cx="949" cy="56" r="2.5"/>
+    </g>
+    <text x="1155" y="61" fill="#9fe6b0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" text-anchor="end" letter-spacing="2">BUILD · TEST · LEARN</text>
   </g>
 </svg>
