@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title desc">
+  <title id="title">Thanks for visiting</title>
+  <desc id="desc">A compact matching dark green footer banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b1511"/>
+      <stop offset="1" stop-color="#111e17"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#90eea6"/>
+      <stop offset="1" stop-color="#3cab73"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="112" rx="14" fill="url(#bg)"/>
+  <rect x="0" y="0" width="5" height="112" rx="2.5" fill="url(#accent)"/>
+  <path d="M34 86H1166" stroke="#91dca4" stroke-opacity=".16"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="38" y="46" fill="#edf7ef" font-size="21" font-weight="600">Thanks for stopping by.</text>
+    <text x="38" y="72" fill="#91ad9a" font-size="14">Keep building useful things.</text>
+    <text x="1160" y="50" fill="#9fe6b0" font-size="13" font-weight="600" text-anchor="end" letter-spacing="2">BUILD · TEST · LEARN</text>
+  </g>
+  <g transform="translate(1090 73)" fill="none" stroke="#79c991" stroke-width="1.5" stroke-linecap="round">
+    <path d="M0 0H61M49 -7L61 0L49 7"/>
+  </g>
+</svg>
